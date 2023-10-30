@@ -3,7 +3,7 @@
 ---
 # Aufgabe
 Eure Aufgabe ist es, eine HTML-Datei namens timetable.html zu erstellen, die einen einfachen Stundenplan für eine Woche darstellt.
-* 55 Punkte
+* 110 Punkte
 * 45 Minuten (Viel Erfolg!)
 
 ---
@@ -47,11 +47,39 @@ Eure Aufgabe ist es, eine HTML-Datei namens timetable.html zu erstellen, die ein
 
 
 ---
-### Erstelle Zellen für die Stunden und Fächer  (20 Punkte)
-#### Create cells for hours and subjects
+### Erstelle mind. 10 Zellen für die Stunden und Fächer  (20 Punkte)
+#### Create at least 10 cells for hours and subjects
 
 ###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/tag_td.asp) 
+
+
+---
+### Setze die Stunden- und Fächerinformationen (20 Punkte)
+#### Set the hour and subject information
+
+##### Unteraufgaben
+* Erstelle die erste TD-Zelle mit 'Hour 1' usw.
+##### Unteraufgaben
+* In der nächsten Spalte fange mit 'Subject 1' an
+###### Hilfe
+* [Spickzettel](https://www.w3schools.com/tags/tag_td.asp) 
+
+
+---
+### Füge Tage zur Wochenüberschrift hinzu (15 Punkte)
+#### Add days to the weekly header
+
+###### Hilfe
+* [Spickzettel](https://www.w3schools.com/tags/tag_th.asp) 
+
+
+---
+### Stundenfarben (20 Punkte)
+#### Hour colors
+
+###### Hilfe
+* [Spickzettel](https://www.w3schools.com/html/html_colors.asp) 
 
 
 ---
