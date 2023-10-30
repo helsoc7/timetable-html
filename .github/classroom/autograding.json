@@ -1,0 +1,24 @@
+{   
+    "introduction": "Deine Einführung hier",
+    "logo_url": "URL des Logos",
+    "timeframe": "Zeitrahmen in Minuten",
+    "tests": [
+      {
+        "specs": {
+          "title": "Spezifikationstitel hier",
+          "list": ["Hier ", "die", "Unteraufgaben"],
+          "code_example": "Hier ein Code Beispiel"
+
+        },
+        "name": "Testname hier",
+        "feedback": "Feedbacktext hier",
+        "urls": ["Hier eine URL für die Hilfestellung"],
+        "file": "Dateiname hier.",
+        "javascript": "JavaScript-Code hier.",
+        "output": "Erwartete Ausgabe hier (z.B. true)",
+        "comparison": "Vergleichstyp (z.B. 'exact')",
+        "points": "100"
+      }
+    ]
+  }
+  
