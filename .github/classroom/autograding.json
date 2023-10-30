@@ -59,7 +59,7 @@
       "points": 10
     },
     {
-      "specs": { "title": "Erstelle Zellen für die Stunden und Fächer" },
+      "specs": { "title": "Erstelle Zellen für die Stunden und Fächer " },
       "name": "Create cells for hours and subjects",
       "feedback": "Each row in your timetable table should contain cells for hours and subjects.",
       "urls": ["https://www.w3schools.com/tags/tag_td.asp"],
