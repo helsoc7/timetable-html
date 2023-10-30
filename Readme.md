@@ -1,4 +1,4 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Calendar_Icon.svg/512px-Calendar_Icon.svg.png" alt="Eure Aufgabe ist es, eine HTML-Datei namens timetable.html zu erstellen, die einen einfachen Stundenplan für eine Woche darstellt." width="300"/>
+<img src="https://m.media-amazon.com/images/I/61LzKmY1K7L._SY466_.jpg" alt="Eure Aufgabe ist es, eine HTML-Datei namens timetable.html zu erstellen, die einen einfachen Stundenplan für eine Woche darstellt." width="300"/>
 
 ---
 # Aufgabe
