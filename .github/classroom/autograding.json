@@ -1,24 +1,73 @@
-{   
-    "introduction": "Deine Einführung hier",
-    "logo_url": "URL des Logos",
-    "timeframe": "Zeitrahmen in Minuten",
-    "tests": [
-      {
-        "specs": {
-          "title": "Spezifikationstitel hier",
-          "list": ["Hier ", "die", "Unteraufgaben"],
-          "code_example": "Hier ein Code Beispiel"
-
-        },
-        "name": "Testname hier",
-        "feedback": "Feedbacktext hier",
-        "urls": ["Hier eine URL für die Hilfestellung"],
-        "file": "Dateiname hier.",
-        "javascript": "JavaScript-Code hier.",
-        "output": "Erwartete Ausgabe hier (z.B. true)",
-        "comparison": "Vergleichstyp (z.B. 'exact')",
-        "points": "100"
-      }
-    ]
-  }
-  
+{
+  "introduction": "Eure Aufgabe ist es, eine HTML-Datei namens timetable.html zu erstellen, die einen einfachen Stundenplan für eine Woche darstellt.",
+  "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Calendar_Icon.svg/512px-Calendar_Icon.svg.png",
+  "timeframe": "45 Minuten (Viel Erfolg!)",
+  "tests": [
+    {
+      "specs": { "title": "Setze den <title> Tag auf 'Timetable'" },
+      "name": "Set the title tag to 'Timetable'",
+      "feedback": "The title of your HTML page should be 'Timetable'.",
+      "urls": ["https://www.w3schools.com/tags/tag_title.asp"],
+      "file": "timetable.html",
+      "javascript": "(function() { return document.title.trim() === 'Timetable' ? 'true' : 'false'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 5
+    },
+    {
+      "specs": { "title": "HTML-Datei namens timetable.html mit HTML-Tabelle erstellen" },
+      "name": "HTML file must contain a table tag",
+      "feedback": "Your HTML file does not have a <table> element. Please add a table tag.",
+      "urls": ["https://www.w3schools.com/tags/tag_table.asp"],
+      "file": "timetable.html",
+      "javascript": "document.querySelectorAll('table').length >= 1",
+      "output": "true",
+      "comparison": "exact",
+      "points": 5
+    },
+    {
+      "specs": { "title": "Tabelle mit Tabellenüberschrift 'Weekly Timetable' erstellen" },
+      "name": "Include a table caption titled 'Weekly Timetable'",
+      "feedback": "Your table should have a caption (<caption> element) with the title 'Weekly Timetable'.",
+      "urls": ["https://www.w3schools.com/tags/tag_caption.asp"],
+      "file": "timetable.html",
+      "javascript": "(function() { var caption = document.querySelector('table caption'); return caption && caption.textContent.trim() === 'Weekly Timetable'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 10
+    },
+    {
+      "specs": { "title": "Setze die ID der Tabelle auf 'weekly-timetable'" },
+      "name": "Set the table ID to 'weekly-timetable'",
+      "feedback": "The ID of your table should be set to 'weekly-timetable'.",
+      "urls": ["https://www.w3schools.com/html/html_id.asp"],
+      "file": "timetable.html",
+      "javascript": "(function() { var table = document.querySelector('table#weekly-timetable'); return table ? 'true' : 'false'; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 5
+    },
+    {
+      "specs": { "title": "Erstelle eine Zeile für die Wochentage" },
+      "name": "Create a row for the weekdays",
+      "feedback": "Your timetable table should have a row for the weekdays.",
+      "urls": ["https://www.w3schools.com/tags/tag_tr.asp"],
+      "file": "timetable.html",
+      "javascript": "(function() { return document.querySelectorAll('table tr').length >= 1; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 10
+    },
+    {
+      "specs": { "title": "Erstelle Zellen für die Stunden und Fächer" },
+      "name": "Create cells for hours and subjects",
+      "feedback": "Each row in your timetable table should contain cells for hours and subjects.",
+      "urls": ["https://www.w3schools.com/tags/tag_td.asp"],
+      "file": "timetable.html",
+      "javascript": "(function() { return document.querySelectorAll('table td').length >= 10; })()",
+      "output": "true",
+      "comparison": "exact",
+      "points": 20
+    }
+  ]
+}
