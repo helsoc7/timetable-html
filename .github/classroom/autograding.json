@@ -12,7 +12,7 @@
       "javascript": "(function() { return document.title.trim() === 'Timetable' ? 'true' : 'false'; })()",
       "output": "true",
       "comparison": "exact",
-      "points": 5
+      "points": 10
     },
     {
       "specs": { "title": "HTML-Datei namens timetable.html mit HTML-Tabelle erstellen" },
@@ -23,7 +23,7 @@
       "javascript": "document.querySelectorAll('table').length >= 1",
       "output": "true",
       "comparison": "exact",
-      "points": 5
+      "points": 10
     },
     {
       "specs": { "title": "Tabelle mit Tabellenüberschrift 'Weekly Timetable' erstellen" },
@@ -34,7 +34,7 @@
       "javascript": "(function() { var caption = document.querySelector('table caption'); return caption && caption.textContent.trim() === 'Weekly Timetable'; })()",
       "output": "true",
       "comparison": "exact",
-      "points": 10
+      "points": 15
     },
     {
       "specs": { "title": "Setze die ID der Tabelle auf 'weekly-timetable'" },
@@ -45,7 +45,7 @@
       "javascript": "(function() { var table = document.querySelector('table#weekly-timetable'); return table ? 'true' : 'false'; })()",
       "output": "true",
       "comparison": "exact",
-      "points": 5
+      "points": 10
     },
     {
       "specs": { "title": "Erstelle eine Zeile für die Wochentage" },
@@ -56,7 +56,7 @@
       "javascript": "(function() { return document.querySelectorAll('table tr').length >= 1; })()",
       "output": "true",
       "comparison": "exact",
-      "points": 10
+      "points": 15
     },
     {
       "specs": { "title": "Erstelle mind. 10 Zellen für die Stunden und Fächer " },
@@ -70,34 +70,12 @@
       "points": 20
     },
     {
-      "specs": { "title": "Setze die Stunden- und Fächerinformationen", "list": ["Erstelle die erste TD-Zelle mit 'Hour 1' usw.", "In der nächsten Spalte fange mit 'Subject 1' an" ] },
-      "name": "Set the hour and subject information",
-      "feedback": "Make sure to set the hour and subject information in the timetable cells.",
-      "urls": ["https://www.w3schools.com/tags/tag_td.asp"],
-      "file": "timetable.html",
-      "javascript": "(function() { var cells = document.querySelectorAll('table td'); return cells.length >= 10 && cells[0].textContent.trim() === 'Hour 1' && cells[1].textContent.trim() === 'Subject 1'; })()",
-      "output": "true",
-      "comparison": "exact",
-      "points": 20
-    },
-    {
-      "specs": { "title": "Füge Tage zur Wochenüberschrift hinzu" },
+      "specs": { "title": "Füge Tage zur Wochenüberschrift hinzu (Monday, Tuesday, Wednesday, Thursday, Friday)" },
       "name": "Add days to the weekly header",
       "feedback": "The weekly header should include the names of the weekdays.",
       "urls": ["https://www.w3schools.com/tags/tag_th.asp"],
       "file": "timetable.html",
       "javascript": "(function() { var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']; var headerRow = document.querySelector('table tr:first-child'); var headerCells = Array.from(headerRow.querySelectorAll('th')).map(cell => cell.textContent.trim()); return days.every(day => headerCells.includes(day)); })()",
-      "output": "true",
-      "comparison": "exact",
-      "points": 15
-    },
-    {
-      "specs": { "title": "Stundenfarben" },
-      "name": "Hour colors",
-      "feedback": "Check if the hours in your table have different background colors.",
-      "urls": ["https://www.w3schools.com/html/html_colors.asp"],
-      "file": "timetable.html",
-      "javascript": "(function() { var cells = document.querySelectorAll('table td'); var backgroundColors = Array.from(cells).map(cell => cell.style.backgroundColor); return backgroundColors.length >= 10 && new Set(backgroundColors).size === backgroundColors.length; })()",
       "output": "true",
       "comparison": "exact",
       "points": 20
