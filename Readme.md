@@ -9,45 +9,40 @@ Eure Aufgabe ist es, eine HTML-Datei namens timetable.html zu erstellen, die ein
 * 45 Minuten (Viel Erfolg!)
 
 ---
-### Setze den <title> Tag auf 'Timetable' (10 Punkte)
-###### Hilfe
-* [Spickzettel](https://www.w3schools.com/tags/tag_title.asp) 
-
-
----
-### HTML-Datei namens timetable.html mit HTML-Tabelle erstellen (10 Punkte)
-###### Hilfe
-* [Spickzettel](https://www.w3schools.com/tags/tag_table.asp) 
-
+<ol>
+<li> Setze den <title> Tag auf 'Timetable' (10 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.w3schools.com/tags/tag_title.asp">Spickzettel</a></li></ul> 
 
 ---
-### Tabelle mit Tabellenüberschrift 'Weekly Timetable' erstellen (15 Punkte)
-###### Hilfe
-* [Spickzettel](https://www.w3schools.com/tags/tag_caption.asp) 
-
-
----
-### Setze die ID der Tabelle auf 'weekly-timetable' (10 Punkte)
-###### Hilfe
-* [Spickzettel](https://www.w3schools.com/html/html_id.asp) 
-
+<li> HTML-Datei namens timetable.html mit HTML-Tabelle erstellen (10 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.w3schools.com/tags/tag_table.asp">Spickzettel</a></li></ul> 
 
 ---
-### Erstelle eine Zeile für die Wochentage (15 Punkte)
-###### Hilfe
-* [Spickzettel](https://www.w3schools.com/tags/tag_tr.asp) 
-
-
----
-### Erstelle mind. 10 Zellen für die Stunden und Fächer  (20 Punkte)
-###### Hilfe
-* [Spickzettel](https://www.w3schools.com/tags/tag_td.asp) 
-
+<li> Tabelle mit Tabellenüberschrift 'Weekly Timetable' erstellen (15 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.w3schools.com/tags/tag_caption.asp">Spickzettel</a></li></ul> 
 
 ---
-### Füge Tage zur Wochenüberschrift hinzu (Monday, Tuesday, Wednesday, Thursday, Friday) (20 Punkte)
-###### Hilfe
-* [Spickzettel](https://www.w3schools.com/tags/tag_th.asp) 
-
+<li> Setze die ID der Tabelle auf 'weekly-timetable' (10 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.w3schools.com/html/html_id.asp">Spickzettel</a></li></ul> 
 
 ---
+<li> Erstelle eine Zeile für die Wochentage (15 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.w3schools.com/tags/tag_tr.asp">Spickzettel</a></li></ul> 
+
+---
+<li> Erstelle mind. 10 Zellen für die Stunden und Fächer  (20 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.w3schools.com/tags/tag_td.asp">Spickzettel</a></li></ul> 
+
+---
+<li> Füge Tage zur Wochenüberschrift hinzu (Monday, Tuesday, Wednesday, Thursday, Friday) (20 Punkte)</li>
+Hilfe: 
+<ul><li><a href="https://www.w3schools.com/tags/tag_th.asp">Spickzettel</a></li></ul> 
+
+---
+</ol>
