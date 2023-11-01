@@ -1,14 +1,18 @@
 {
-  "repo": "helsoc7/newstter-html",
+  "repo": "helsoc7/timetable-html",
   "introduction": "Eure Aufgabe ist es, eine HTML-Datei namens timetable.html zu erstellen, die einen einfachen Stundenplan für eine Woche darstellt.",
   "logo_url": "https://m.media-amazon.com/images/I/61LzKmY1K7L._SY466_.jpg",
   "timeframe": "45 Minuten (Viel Erfolg!)",
   "tests": [
     {
-      "specs": { "title": "Setze den <title> Tag auf 'Timetable'" },
+      "specs": {
+        "title": "Setze den <title> Tag auf 'Timetable'"
+      },
       "name": "Set the title tag to 'Timetable'",
       "feedback": "The title of your HTML page should be 'Timetable'.",
-      "urls": ["https://www.w3schools.com/tags/tag_title.asp"],
+      "urls": [
+        "https://www.w3schools.com/tags/tag_title.asp"
+      ],
       "file": "timetable.html",
       "javascript": "(function() { return document.title.trim() === 'Timetable' ? 'true' : 'false'; })()",
       "output": "true",
@@ -16,10 +20,14 @@
       "points": 10
     },
     {
-      "specs": { "title": "HTML-Datei namens timetable.html mit HTML-Tabelle erstellen" },
+      "specs": {
+        "title": "HTML-Datei namens timetable.html mit HTML-Tabelle erstellen"
+      },
       "name": "HTML file must contain a table tag",
       "feedback": "Your HTML file does not have a <table> element. Please add a table tag.",
-      "urls": ["https://www.w3schools.com/tags/tag_table.asp"],
+      "urls": [
+        "https://www.w3schools.com/tags/tag_table.asp"
+      ],
       "file": "timetable.html",
       "javascript": "document.querySelectorAll('table').length >= 1",
       "output": "true",
@@ -27,10 +35,14 @@
       "points": 10
     },
     {
-      "specs": { "title": "Tabelle mit Tabellenüberschrift 'Weekly Timetable' erstellen" },
+      "specs": {
+        "title": "Tabelle mit Tabellenüberschrift 'Weekly Timetable' erstellen"
+      },
       "name": "Include a table caption titled 'Weekly Timetable'",
       "feedback": "Your table should have a caption (<caption> element) with the title 'Weekly Timetable'.",
-      "urls": ["https://www.w3schools.com/tags/tag_caption.asp"],
+      "urls": [
+        "https://www.w3schools.com/tags/tag_caption.asp"
+      ],
       "file": "timetable.html",
       "javascript": "(function() { var caption = document.querySelector('table caption'); return caption && caption.textContent.trim() === 'Weekly Timetable'; })()",
       "output": "true",
@@ -38,10 +50,14 @@
       "points": 15
     },
     {
-      "specs": { "title": "Setze die ID der Tabelle auf 'weekly-timetable'" },
+      "specs": {
+        "title": "Setze die ID der Tabelle auf 'weekly-timetable'"
+      },
       "name": "Set the table ID to 'weekly-timetable'",
       "feedback": "The ID of your table should be set to 'weekly-timetable'.",
-      "urls": ["https://www.w3schools.com/html/html_id.asp"],
+      "urls": [
+        "https://www.w3schools.com/html/html_id.asp"
+      ],
       "file": "timetable.html",
       "javascript": "(function() { var table = document.querySelector('table#weekly-timetable'); return table ? 'true' : 'false'; })()",
       "output": "true",
@@ -49,10 +65,14 @@
       "points": 10
     },
     {
-      "specs": { "title": "Erstelle eine Zeile für die Wochentage" },
+      "specs": {
+        "title": "Erstelle eine Zeile für die Wochentage"
+      },
       "name": "Create a row for the weekdays",
       "feedback": "Your timetable table should have a row for the weekdays.",
-      "urls": ["https://www.w3schools.com/tags/tag_tr.asp"],
+      "urls": [
+        "https://www.w3schools.com/tags/tag_tr.asp"
+      ],
       "file": "timetable.html",
       "javascript": "(function() { return document.querySelectorAll('table tr').length >= 1; })()",
       "output": "true",
@@ -60,10 +80,14 @@
       "points": 15
     },
     {
-      "specs": { "title": "Erstelle mind. 10 Zellen für die Stunden und Fächer " },
+      "specs": {
+        "title": "Erstelle mind. 10 Zellen für die Stunden und Fächer "
+      },
       "name": "Create at least 10 cells for hours and subjects",
       "feedback": "Each row in your timetable table should contain cells for hours and subjects.",
-      "urls": ["https://www.w3schools.com/tags/tag_td.asp"],
+      "urls": [
+        "https://www.w3schools.com/tags/tag_td.asp"
+      ],
       "file": "timetable.html",
       "javascript": "(function() { return document.querySelectorAll('table td').length >= 10; })()",
       "output": "true",
@@ -71,10 +95,14 @@
       "points": 20
     },
     {
-      "specs": { "title": "Füge Tage zur Wochenüberschrift hinzu (Monday, Tuesday, Wednesday, Thursday, Friday)" },
+      "specs": {
+        "title": "Füge Tage zur Wochenüberschrift hinzu (Monday, Tuesday, Wednesday, Thursday, Friday)"
+      },
       "name": "Add days to the weekly header",
       "feedback": "The weekly header should include the names of the weekdays.",
-      "urls": ["https://www.w3schools.com/tags/tag_th.asp"],
+      "urls": [
+        "https://www.w3schools.com/tags/tag_th.asp"
+      ],
       "file": "timetable.html",
       "javascript": "(function() { var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']; var headerRow = document.querySelector('table tr:first-child'); var headerCells = Array.from(headerRow.querySelectorAll('th')).map(cell => cell.textContent.trim()); return days.every(day => headerCells.includes(day)); })()",
       "output": "true",
